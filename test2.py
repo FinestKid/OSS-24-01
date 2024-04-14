@@ -1,6 +1,9 @@
 print(Hello)
+for i in range(10):
+    print(i)
 
-newse@DESKTOP-VN1HVP0 MINGW64 ~/Desktop/OSS/OSS-24-01 (main|MERGING)
-Merge made by the 'ort' strategy.
-:wq
+print(end)
+
+
+
 
