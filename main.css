@@ -1,0 +1,84 @@
+.alert-box {
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 5px;
+    display: none; /* 버튼 숨기기 */
+}
+
+.list-group {
+    display: none;
+}
+
+.black-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background : rgba(0, 0, 0, 0.5);
+    z-index : 6;
+    padding: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.main-bg {
+    padding: 100px 20px;
+    background-color: lightgray;
+}
+
+.show-modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+.show-navbar {
+    display: block;
+}
+
+.white-bg {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.slide-container {
+    width: 300vw;
+    transition: all 1s;
+}
+
+.slide-box {
+    width: 100vw;
+    float: left;
+}
+
+.slide-box img {
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+/* Navbar 스타일 */
+.navbar {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Navbar 배경색 */
+}
+
+/* 스크롤 진행 상황 표시 모양 */
+.navbar-scroll-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%; /* navbar의 높이만큼 */
+    width: 0; /* 초기 너비는 0 */
+    background-color: #000000; /* 검은색 */
+    z-index: 1; /* 다른 요소 위에 배치 */
+}
+
+
