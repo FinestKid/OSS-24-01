@@ -1,8 +1,5 @@
-print(Hello)
-for i in range(10):
-    print(i)
-
-print(end)
+print('Hello')
+print('hello2')
 
 
 
